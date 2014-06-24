@@ -13,7 +13,8 @@ public class LayoutTutorial2Activity extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		// setContentView(R.layout.activity_layout_tutorial2);
-		
+
+		// test yorum
 		int tutorial = getIntent().getIntExtra("tutorial", 0);
 
 		switch (tutorial)
