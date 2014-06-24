@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alexander.androidtutorials"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.alexander.androidtutorials.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alexander.androidtutorials.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.alexander.androidtutorials.LayoutTutorialActivity"
+            android:label="@string/title_activity_layout_tutorial" >
+        </activity>
+        <activity
+            android:name="com.alexander.androidtutorials.LayoutTutorial2Activity"
+            android:label="@string/title_activity_layout_tutorial2" >
+        </activity>
+        <activity
+            android:name="com.alexander.androidtutorials.VideoTutorialActivity"
+            android:label="@string/title_activity_video_tutorial" >
+        </activity>
+        <activity
+            android:name="com.alexander.androidtutorials.AsyncTaskTutorialActivity"
+            android:label="@string/title_activity_async_task_tutorial" >
+        </activity>
+        <activity
+            android:name="com.alexander.androidtutorials.TransitionTutorialActivity"
+            android:label="@string/title_activity_transition_tutorial" >
+        </activity>
+        <activity
+            android:name="com.alexander.androidtutorials.SeekBarTutorialActivity"
+            android:label="@string/title_activity_seek_bar_tutorial" >
+        </activity>
+    </application>
+
+</manifest>
